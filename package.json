@@ -1,0 +1,15 @@
+{
+  "name": "hopkins-late-bus-notifier",
+  "version": "1.0.0",
+  "description": "Parse Google Sheets HTML and if a late bus is found, send a notification to a Vestaboard",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "moment": "^2.29.4",
+    "vestaboard-api": "^1.0.4"
+  },
+  "type": "module"
+}
